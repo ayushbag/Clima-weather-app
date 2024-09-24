@@ -7,7 +7,6 @@ import CloudyRainy from '../assets/CloudyRainy.png';
 import Rainbow from '../assets/Rainbow.png';
 import Frost from '../assets/Frost.png';
 import Clear from "../assets/Clear.png"
-import ASun from '../assets/ASun.png';
 import ThemeContext from '../contexts/Theme';
 
 function Home() {

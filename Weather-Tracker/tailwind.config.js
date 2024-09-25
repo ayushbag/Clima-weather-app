@@ -8,7 +8,7 @@ export default {
   theme: {
     extend: {
       fontFamily:{
-        sans:["Poppins"]
+        poppins:["Poppins", "sans-serif"]
       },
       animation: {
         blob: "blob 10s infinite",

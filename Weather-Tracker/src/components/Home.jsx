@@ -81,7 +81,7 @@ function Home() {
   }, [theme])
 
   return (
-    <div className='bg-gradient-to-tr from-teal-300 to-orange-400  min-h-screen content-center p-4 dark:bg-gradient-to-tr dark:from-blue-900 dark:to-orange-900'>
+    <div className='bg-gradient-to-tr from-teal-300 to-orange-400 min-h-screen p-4 dark:bg-gradient-to-tr dark:from-blue-900 dark:to-orange-900'>
     <div className='h-fit font-poppins sm:max-w-xl max-w-sm mx-auto  bg-white rounded-2xl bg-opacity-65 border-white shadow-md dark:bg-gray-950 dark:bg-opacity-80'>
 
       {/* TopBAR */}

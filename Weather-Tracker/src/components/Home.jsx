@@ -122,7 +122,7 @@ function Home() {
         </div>
 
         <div className='flex flex-col justify-center w-full items-center text-center mt-[70px] sm:mt-[90px]'>
-          <h1 className='absolute top-[154px] sm:top-[140px] text-[45px]  sm:text-[85px]  dark:opacity-75 font-semibold bg-gradient-to-b opacity-60 from-gray-950 to-white bg-clip-text text-transparent dark:bg-gradient-to-b dark:from-white dark:to-slate-900 '>{weatherdata && weatherdata.city ? weatherdata.city : "..."}</h1>
+          <h1 className='absolute top-[154px] sm:top-[134px] text-[45px]  sm:text-[85px]  dark:opacity-75 font-semibold bg-gradient-to-b opacity-60 from-gray-950 to-white bg-clip-text text-transparent dark:bg-gradient-to-b dark:from-white dark:to-gray-950'>{weatherdata && weatherdata.city ? weatherdata.city : "..."}</h1>
           <h1 className='relative text-4xl sm:text-6xl font-semibold items-center text-gray-950 dark:text-white'>{weatherdata ? weatherdata.temperature : <LoadingDots />}<span className='text-[30px]'>{weatherdata.temperature ? "°c" : ""}</span></h1>
         </div>
         <div className='relative -mt-16 sm:-mt-14'>
